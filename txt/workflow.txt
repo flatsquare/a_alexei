@@ -1,0 +1,8 @@
+log page maket is done
+main part of project structuring is also done
+
+plan:
+  1.next step is home page and all other pages simple html/css work + linking
+  2.then config exact design
+  3.adding interactivity with vue.js
+  4.work on backend

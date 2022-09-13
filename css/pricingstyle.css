@@ -1,0 +1,312 @@
+.body {
+  padding: 0px;
+  margin: 0px;
+
+}
+/* ---------------------------------------------------------------------upperTabLine */
+.upperBox {
+  position: relative;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 114px;
+  background-color: white;
+}
+
+.LobuschLogo {
+  position: absolute;
+  top: 34px;
+  left: 30px;
+  height: 30px;
+}
+#services {
+  position: absolute;
+  left: 19.65%;
+  top: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#pricing {
+  position: absolute;
+  left: 27.71%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#aboutUs {
+  position: absolute;
+  left: 33.06%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#login {
+  z-index: 10;
+  position: absolute;
+  right: 19.03%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#StartCompanyBtn {
+  border: 0;
+  position: absolute;
+  left: 83.4%;
+  right: 3.26%;
+  top: 28.07%;
+  bottom: 26.32%;
+  background: #C4C4C4;
+}
+/* -----------------------------------------------------------------------middleBlock- */
+
+
+
+.middleBlock {
+  top:10px;
+    /* border: 2px solid red; */
+  /* height: 200vh; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#headtextPricing {
+  text-align: center;
+  font-size: 36px;
+  position: relative;
+}
+/* -----------------price packages */
+.pricePackagesBlock {
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  height: 680px;
+  width: 98%;
+  flex-direction: row;
+  justify-content: center;
+}
+/* ---------------------------------------------ibox props */
+.individudalBox{
+  /* border: 2px solid red; */
+  width: 362px;
+  height: 650px;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* -------------inside individual */
+.I-textbox{
+  top: -70px;
+  height: 70%;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  width: 90%;
+}
+#individualBtn{
+  position: absolute;
+  bottom: 60px;
+  border: 0;
+  width: 217px;
+  height: 55px;
+  background-color: #0093EB;
+}
+/* --------------------------------------nbox props------- */
+.nomineeBox{
+  /* border: 2px solid red; */
+  width: 362px;
+  height: 650px;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* ---------------------inside nomimnee */
+.N-textbox {
+  top: -80px;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  height: 70%;
+  width: 90%;
+}
+#nomineeBtn{
+  position: absolute;
+  bottom: 60px;
+  border: 0;
+  width: 217px;
+  height: 55px;
+  background-color: #0093EB;
+}
+/* -------------------------------------cbox props */
+.corporateBox{
+  /* border: 2px solid red; */
+  width: 362px;
+  height: 650px;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+/* ----------------inside corporate */
+.C-textbox {
+  top: -80px;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  height: 70%;
+  width: 90%;
+}
+
+/* ----------------------------------dscrptextboxes */
+#headtextDescribe {
+  /* border: 2px solid red; */
+  font-size: 24px;
+}
+.corpPackDescribe{
+
+  position: relative;
+  /* border: 2px solid red; */
+  width: 78%;
+  height: 30vh;
+  margin: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* -----------------------------------inside corp descr */
+.CPDupleftbox{
+  border: 2px solid red;
+  position: absolute;
+  width: 50%;
+  height: 30%;
+}
+
+.CPDuprightblock {
+  border: 2px solid red;
+  position: absolute;
+  width: 50%;
+  height: 65%;
+  bottom:0;
+}
+/* ------------------------- */
+.packChangeDescribe{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 78%;
+  height: 30vh;
+  margin: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.workPermitDescribe{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 78%;
+  height: 30vh;
+  margin: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.tempResidenceDescribe{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 78%;
+  height: 30vh;
+  margin: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------loverblock */
+
+.loverBlock{
+  top: 100px;
+  z-index: 11;
+  /* border: 2px solid red; */
+  position: relative;
+  width: 100%;
+  height: 114px;
+}
+
+.lowerfixedBlockLine {
+  /* border: 1px solid red; */
+  position: fixed;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+
+.lowLeftBlock {
+  padding: 30px;
+  /* border: 1px solid red; */
+  position: fixed;
+  height: 12px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}

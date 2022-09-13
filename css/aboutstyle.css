@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.upperBox {
+  position: relative;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 114px;
+  background-color: white;
+}
+
+.LobuschLogo {
+  position: absolute;
+  top: 34px;
+  left: 30px;
+  height: 30px;
+}
+#services {
+  position: absolute;
+  left: 19.65%;
+  top: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#pricing {
+  position: absolute;
+  left: 27.71%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#aboutUs {
+  position: absolute;
+  left: 33.06%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#login {
+  z-index: 10;
+  position: absolute;
+  right: 19.03%;
+  top: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#StartCompanyBtn {
+  border: 0;
+  position: absolute;
+  left: 83.4%;
+  right: 3.26%;
+  top: 28.07%;
+  bottom: 26.32%;
+  background: #C4C4C4;
+}
+
+
+.textBox{
+  /* border: 2px solid red; */
+  width: 52%;
+
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 365px;
+  margin-right: 365px;
+}
+
+.loverBlock{
+  top: 100px;
+  z-index: 11;
+  /* border: 2px solid red; */
+  position: relative;
+  width: 100%;
+  height: 114px;
+}
+
+.lowerfixedBlockLine {
+  /* border: 1px solid red; */
+  position: fixed;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+
+.lowLeftBlock {
+  padding: 30px;
+  /* border: 1px solid red; */
+  position: fixed;
+  height: 12px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}

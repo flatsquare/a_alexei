@@ -1,0 +1,2 @@
+ICON INTEGRATION
+<object data="D:\webdev business\a_alexei\refs\icons\google.svg" width="30" height="30"> </object>
