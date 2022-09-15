@@ -10,7 +10,7 @@
   <!-- line with tabs  -->
   <div class="upperBox">
     <img class="LobuschLogo" src="refs\imgs\logo Lobush.jpg" alt="L_logo">
-    <p id="services">Services  ᐯ</p>   <p id="pricing"><a href="html/pricing.html">Pricing</a></p><p id="aboutUs"><a href="html/aboutUs.html">About us</a></p><p id="login"><a href="html/login.html">Login</a></p><button id="StartCompanyBtn" type="button" name="button">Start a company</button>
+    <p id="services">Services  ᐯ</p>   <p id="pricing"><a href="html/pricing.html">Pricing</a></p><p id="aboutUs"><a href="html/aboutUs.html">About us</a></p><p id="login"><a href="html/login.html">Login</a></p><a href="html/packages_page.html"><button id="StartCompanyBtn" type="button" name="button">Start a company</button></a>
   </div>
 
 
@@ -59,61 +59,69 @@
         <!-- shareholder options -->
         <h1 id="shareholderHeading">Choose the Shareholder option that fit your needs</h1>
 
-        <div class="payOptionsBoxes">
+        <div class="pricePackagesBlock">
 
-          <!-- box1 -->
-          <div class="individualOptnBox">
-            <div class="individualOptnTexts">
+          <div class="individudalBox">
+            <!--                              inside individual container -->
+            <div class="I-textbox">
               <h3>Individual</h3>
-              <p>14 days </p>
-              <p>Power of Attorney Required<img src="refs\icons\circleQuestion.svg" height="20px" width="20px"></p>
+              <p style="margin:0;">14 days </p>
+              <p style="margin:0;">Power of Attorney Required<img src="refs\icons\circleQuestion.svg" height="20px" width="20px"></p>
               <p style="color:#C4C4C4;">Basic services:</p>
-              <p> Legal address for one year</p>
-              <p>Nominee director for one month<br>
+              <p style="margin:10;"> Legal address for one year</p>
+              <p style="margin:0;">Nominee director for one month<br>
                 (until the real shareholder arrives<br>
                 in Ukraine)</p>
                 <p>Multi-currency bank account</p>
-                <p style="color:#C4C4C4;">Mandatory additional services:</p>
-                <p>Work Permit for Shareholder<br>+ 300 USD</p>
-                <p> <b>200 USD</b> </p>
-                <button id="SOIBstartCompany"type="button" name="button">Start company</button>  <!--SOI - shareholder options individual button-->
+                <p style="color:#C4C4C4;margin:10;">Mandatory additional services:</p>
+                <p style="margin:10;">Work Permit for Shareholder<br>+ 300 USD</p>
               </div>
+              <p style="z-index:10;position:absolute;top:490px;"> <b>200 USD</b> </p>
+              <button onclick="window.location='html/individualFlowHTML/create_account.html';"id="individualBtn"type="button" name="button">Start company</button>
             </div>
 
-            <!-- box2 -->
-            <div class="nomineeOptnBox">
-              <div class="nomineeOptnTexts">
+
+
+            <div class="nomineeBox">
+              <!--                          inside nominee container -->
+              <div class="N-textbox">
                 <h3>Nominee</h3>
-                <p>1 day</p>
-                <p><b>Fully online registration</b></p>
+                <p style="margin:0;">1 day </p>
+                <p style="margin:0;"><b>Fully online registration</b></p>
                 <p style="color:#C4C4C4;">Basic services:</p>
-                <p>Legal address for one year</p>
-                <p>Nominee director with free<br> transfer of authority upon<br>request.</p>
-                <p>Multi-currency bank account</p>
-                <p style="color:#C4C4C4;">Mandatory additional services:</p>
-                <p>Corporate Management Service</p>
-                <p> <b>200 USD</b> </p>
-                <button style="position:relative;top:50px;"id="SONBstartCompany"type="button" name="button">Start company</button>  <!--SON - shareholder options nominee button-->
-              </div>
-            </div>
-
-            <!-- box3 -->
-            <div class="corporateOptnBox">
-              <div class="corporateOptnText">
-                <h3>Corporate</h3>
-                <p>14 days</p>
-                <p>Power of Attorney Required<img src="refs\icons\circleQuestion.svg" height="20px" width="20px"</p>
-                <p style="color:#C4C4C4;">Basic services:</p>
-                <p>Legal address for one year</p>
-                <p>Nominee director for one month<br>
-                  (until the real shareholder arrives<br> in Ukraine)</p>
-                  <p style="color:#C4C4C4;">Mandatory additional services:</p>
-                  <p>Corporate Management Service</p>
-                  <p> <b>200 USD</b> </p>
-                  <button style="position:relative;top:50px;"id="SOCBstartCompany"type="button" name="button">Start company</button>  <!--SON - shareholder options corporate button-->
+                <p style="margin:10;"> Legal address for one year</p>
+                <p style="margin:0;">Nominee director with free<br>
+                  transfer of authority upon<br>
+                  request.</p>
+                  <p>Multi-currency bank account</p>
+                  <p style="color:#C4C4C4;margin:10;">Mandatory additional services:</p>
+                  <p style="margin:10;">Corporate Management Service</p>
                 </div>
+                <p style="z-index:10;position:absolute;top:490px;"> <b>200 USD</b> </p>
+                <button onclick="window.location='html/nomineeFlowHTML/create_accountN1.html';"id="nomineeBtn"type="button" name="button">Start company</button>
               </div>
-            </div>
+
+
+
+              <div class="corporateBox">
+                <div class="C-textbox">
+                  <h3>Corporate</h3>
+                  <p style="margin:0;">14 days </p>
+                  <p style="margin:0;">Power of Attorney Required<img src="refs\icons\circleQuestion.svg" height="20px" width="20px"></p>s
+                  <p style="color:#C4C4C4;">Basic services:</p>
+                  <p style="margin:10;"> Legal address for one year</p>
+                  <p style="margin:0;">Nominee director for one month<br>
+                    (until the real shareholder arrives<br>
+                    in Ukraine)</p>
+                    <p>Multi-currency bank account</p>
+                    <p style="color:#C4C4C4;margin:10;">Mandatory additional services:</p>
+                    <p style="margin:10;">Corporate Management Service</p>
+                  </div>
+                  <p style="z-index:10;position:absolute;top:490px;"> <b>200 USD</b> </p>
+                  <button onclick="window.location='html/corporateFlowHTML/create_accountC1.html';" id="nomineeBtn"type="button" name="button">Start company</button>
+                </div>
+
+              </div>
 
 
             <!-- benefits of registration  -->
