@@ -25,18 +25,16 @@
       <button id="googleLogButton"><img id="g-icon"src="..\..\refs\icons\google.svg" alt="" width="22px" height="22px">Continue with Google</button>
       <p id="orElog">Or login with email</p>
 
-      <form>
-      <input id="emailForm" placeholder="Email"><br>
-      <input id="passwordForm" placeholder="Password"><br>
+      <form action="http://127.0.0.1:5000/nomineeDatalog" method="post">
+      <input id="emailForm" placeholder="Email" name="email"><br>
+      <input id="passwordForm" placeholder="Password" name="password" type="password"><br>
 
       <input style="margin-bottom:20px;"type="checkbox" name="agreement">
       <label for="agreement">I agree to Terms & Privacy Policy</label><br>
 
 
-      <button type="button" onclick="window.location='nomineeData.html';"id="LogButton"><b>Get started</b></button><br>
+      <button type="submit" id="LogButton"><b>Get started</b></button>
 
-
-      <p id="registrRequest">Don’t have an account?<a href="">Register a company</a></p>
       </form>
 
   </div>

@@ -6,4 +6,4 @@ ICON INTEGRATION
 
 
 
-last commit - starting with individual data sending to a server 
+last commit - starting with individual data sending to a server
