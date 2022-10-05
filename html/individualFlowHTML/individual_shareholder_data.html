@@ -9,45 +9,45 @@
   <div class="mainBox" style="height:75vh;width:100%;display:flex;flex-direction:row;">
     <div class="stepsBox" style="height:100%;width:20%;background-color:#C4C4C4;"> what step now</div>
 
-    <div class="dataBox" style="height:100%;width:78%;margin-left:30px; position:relative;">
+    <form action="http://127.0.0.1:5000/id_individualCl_data" method="post" class="dataBox" style="height:100%;width:78%;margin-left:30px; position:relative;">
 
       <h1 style="margin:0;">Input here data about the shareholder</h1>
 
       <div class="inputsContainerCol1" style="height:77%;width:30%;margin-left:30px;display:flex;flex-direction:column;justify-content:space-between;">
         <label>First Name</label>
-        <input type="text" name="company_name" value="" style="width:320px; height:50px;">
+        <input type="text" name="first_name" value="" style="width:320px; height:50px;">
 
         <label>Family Name</label>
-        <input type="text" name="company_activities" value="" style="width:320px; height:50px;">
+        <input type="text" name="surname" value="" style="width:320px; height:50px;">
 
         <label>Birthdate</label>
-        <input type="text" name="capital" placeholder="DD/MM/YYY" style="width:320px; height:50px;">
+        <input type="text" name="birthdate" placeholder="DD/MM/YYY" style="width:320px; height:50px;">
 
         <label>Place of birth</label>
-        <input type="text" name="restrictions" value="" style="width:320px; height:50px;">
+        <input type="text" name="place_of_birth" value="" style="width:320px; height:50px;">
 
         <label>Phone number of the contact</label>
-        <input type="text" name="restrictions" value="" style="width:320px; height:50px;">
+        <input type="text" name="phone_number" value="" style="width:320px; height:50px;">
       </div>
 
       <div class="inputsContainerCol2" style="height:77%;width:30%;margin-left:30px;position:relative;top:-422px;left:380px;display:flex;flex-direction:column; justify-content:space-between;">
         <label>Citizen of</label>
-        <input type="text" name="company_name" value="" style="width:320px; height:50px;">
+        <input type="text" name="citizen_of" value="" style="width:320px; height:50px;">
 
         <label>Passport number</label>
-        <input type="text" name="company_activities" value="" style="width:320px; height:50px;">
+        <input type="text" name="passport" value="" style="width:320px; height:50px;">
 
         <label>Issuing authority</label>
-        <input type="text" name="capital" style="width:320px; height:50px;">
+        <input type="text" name="issuing_authority" style="width:320px; height:50px;">
 
         <label>Date of expiry</label>
-        <input type="text" name="restrictions" value="" style="width:320px; height:50px;">
+        <input type="text" name="date_of_expiry" value="" style="width:320px; height:50px;">
 
         <button type="button" name="button" style="width: 320px;height: 50px;background-color: #C4C4C4;border:0; margin-top:19px;">+ Add adittional Shareholders </button>
       </div>
       <a href="individualData.html"><button type="button" name="button" style="width:253px; height:40px; position:absolute;bottom:30px;left:0;background-color:#C4C4C4;border:0;">Back</button></a>
-      <a href="email_form.html"><button type="button" name="button" style="width:253px; height:40px; position:absolute;bottom:30px;right:0;background-color:#2670FF;border:0;">Next</button></a>
-    </div>
+      <button type="submit" name="button" style="width:253px; height:40px; position:absolute;bottom:30px;right:0;background-color:#2670FF;border:0;">Next</button>
+    </form>
   </div>
 
 </body>
